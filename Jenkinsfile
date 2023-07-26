@@ -1,13 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('Hello') {
             steps {
-                // Buraya yapılacak işlemleri ekleyin
-                sh 'echo selam' //
+                echo "Hello World!"
             }
         }
-        
-        
     }
 }
